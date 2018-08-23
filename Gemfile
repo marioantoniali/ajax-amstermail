@@ -6,6 +6,7 @@ ruby '2.5.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 # Use sqlite3 as the database for Active Record
+
 group :development, :test do
   gem 'sqlite3'
 end
@@ -13,6 +14,7 @@ end
 group :production do
   gem 'pg', '~> 0.18'
 end
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -32,7 +34,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'popper_js', '~> 1.14.3'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'  
+gem 'bootstrap-sass'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

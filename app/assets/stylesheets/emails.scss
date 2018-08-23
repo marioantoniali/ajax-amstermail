@@ -2,8 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.wrapper {
+    display: flex;
+    align-items: baseline;
+    margin: 50px
+}
 
-table,
-td {
-    border: 1px solid rgb(103, 255, 98);
+
+.left, .right {
+    padding: 50px;
+    border: 2px solid rgb(130, 173, 179);
+    border-radius: 4px;
+}
+.left {
+    margin: 100px
 }
