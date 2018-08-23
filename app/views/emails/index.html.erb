@@ -1,0 +1,22 @@
+<% @emails.each do |email| %>
+    <table>
+    <thead>
+      <tr>
+        <th>Object</th>
+        <th>Body</th>
+      </tr>
+    </thead>
+   
+    <% @emails.each do |email| %>
+   
+    <tbody>
+      <tr>
+        <td><%= email.object %></td>
+        <td><%= email.body %></td>
+      </tr>
+    </tbody>
+   
+    <% end %>
+   
+   </table>
+<% end %>

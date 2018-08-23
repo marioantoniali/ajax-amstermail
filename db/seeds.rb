@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+Email.create(object: 'Music', body: 'Pompiloupapouuuuuuuuuuuu')
+Email.create(object: 'Mountain', body: 'Hike,Bike,Walk,Pimpampoum')
+Email.create(object: 'Beach', body: 'Surf, Scuba, Sun, blablabla')
+Email.create(object: 'City', body: 'Energy, people, pollution, noise')
+Email.create(object: 'Love', body: 'Lovely youuuuuuuuuuuuu')
